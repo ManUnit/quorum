@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/quorum/consensus"
+	"github.com/ethereum/quorum/metrics"
+	"github.com/ethereum/quorum/p2p"
 )
 
 var (

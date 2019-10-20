@@ -30,4 +30,4 @@ It is possible to build and run Quorum on Windows. Below are the steps required,
 4. Checkout Quorum into newly created GOPATH structure like so: `git clone https://github.com/jpmorganchase/quorum.git GOPATH\src\github.com\ethereum\go-ethereum`. Note: **go-ethereum** added at the end is required since Quorum occupies the same namespace as go-ethereum project. For this reason, on windows, a separate GOPATH is recommended if you need to build both projects
 5. Change directory into checked out project and build it with `go install -v ./cmd/geth`
 
-The steps mimic the documentation from [go-ethereum project](https://github.com/ethereum/go-ethereum/wiki/Installation-instructions-for-Windows), please reference as needed
+The steps mimic the documentation from [go-ethereum project](https://github.com/ethereum/quorum/wiki/Installation-instructions-for-Windows), please reference as needed

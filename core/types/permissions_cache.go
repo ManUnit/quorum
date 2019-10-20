@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/quorum/p2p/enode"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/quorum/common"
 	lru "github.com/hashicorp/golang-lru"
 )
 

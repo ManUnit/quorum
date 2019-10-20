@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
+	"github.com/ethereum/quorum/consensus/istanbul"
 )
 
 func newTestPreprepare(v *istanbul.View) *istanbul.Preprepare {

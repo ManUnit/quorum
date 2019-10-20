@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/consensus/istanbul"
+	"github.com/ethereum/quorum/event"
+	"github.com/ethereum/quorum/log"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

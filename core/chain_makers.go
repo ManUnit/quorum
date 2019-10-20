@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/consensus"
+	"github.com/ethereum/quorum/consensus/misc"
+	"github.com/ethereum/quorum/core/state"
+	"github.com/ethereum/quorum/core/types"
+	"github.com/ethereum/quorum/core/vm"
+	"github.com/ethereum/quorum/ethdb"
+	"github.com/ethereum/quorum/params"
 )
 
 // BlockGen creates blocks for testing.

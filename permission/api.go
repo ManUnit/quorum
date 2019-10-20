@@ -6,14 +6,14 @@ import (
 	"math/big"
 	"regexp"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	pbind "github.com/ethereum/go-ethereum/permission/bind"
+	"github.com/ethereum/quorum/accounts"
+	"github.com/ethereum/quorum/accounts/abi/bind"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/core/types"
+	"github.com/ethereum/quorum/internal/ethapi"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/p2p/enode"
+	pbind "github.com/ethereum/quorum/permission/bind"
 )
 
 var isStringAlphaNumeric = regexp.MustCompile(`^[a-zA-Z0-9_-]*$`).MatchString

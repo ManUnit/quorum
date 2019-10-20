@@ -21,10 +21,10 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/p2p"
+	"github.com/ethereum/quorum/rlp"
 )
 
 // Peer represents a whisper protocol peer connection.

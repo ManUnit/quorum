@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/core/rawdb"
+	"github.com/ethereum/quorum/core/state"
+	"github.com/ethereum/quorum/crypto/sha3"
+	"github.com/ethereum/quorum/ethdb"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/trie"
 )
 
 // stateReq represents a batch of state fetch requests grouped together into

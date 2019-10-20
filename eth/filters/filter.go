@@ -21,13 +21,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/core"
+	"github.com/ethereum/quorum/core/bloombits"
+	"github.com/ethereum/quorum/core/types"
+	"github.com/ethereum/quorum/ethdb"
+	"github.com/ethereum/quorum/event"
+	"github.com/ethereum/quorum/rpc"
 )
 
 type Backend interface {

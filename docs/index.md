@@ -3,7 +3,7 @@
 ## What is Quorum?
 Quorum is an Ethereum-based distributed ledger protocol that has been developed to provide industries such as finance, supply chain, retail, real estate, etc. with a permissioned implementation of Ethereum that supports transaction and contract privacy.  
 
-Quorum includes a minimalistic fork of the [Go Ethereum client](https://github.com/ethereum/go-ethereum) (a.k.a geth), and as such, leverages the work that the Ethereum developer community has undertaken.  
+Quorum includes a minimalistic fork of the [Go Ethereum client](https://github.com/ethereum/quorum) (a.k.a geth), and as such, leverages the work that the Ethereum developer community has undertaken.  
  
 The primary features of Quorum, and therefore extensions over public Ethereum, are:
 

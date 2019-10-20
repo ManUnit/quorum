@@ -28,14 +28,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum/quorum/common/mclock"
+	"github.com/ethereum/quorum/crypto"
+	"github.com/ethereum/quorum/ethdb"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/p2p"
+	"github.com/ethereum/quorum/p2p/discv5"
+	"github.com/ethereum/quorum/p2p/enode"
+	"github.com/ethereum/quorum/rlp"
 )
 
 const (

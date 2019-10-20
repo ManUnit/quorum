@@ -4,7 +4,7 @@ import (
 	"crypto/ecdsa"
 	"encoding/json"
 	"fmt"
-	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/quorum/core"
 	"io/ioutil"
 	"math/big"
 	"os"
@@ -13,22 +13,22 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/ethereum/quorum/ethclient"
 
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/ethereum/quorum/event"
 
-	"github.com/ethereum/go-ethereum/raft"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ethereum/quorum/raft"
+	"github.com/ethereum/quorum/rpc"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	pbind "github.com/ethereum/go-ethereum/permission/bind"
+	"github.com/ethereum/quorum/accounts/abi/bind"
+	"github.com/ethereum/quorum/core/types"
+	"github.com/ethereum/quorum/eth"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/node"
+	"github.com/ethereum/quorum/p2p"
+	"github.com/ethereum/quorum/p2p/enode"
+	"github.com/ethereum/quorum/params"
+	pbind "github.com/ethereum/quorum/permission/bind"
 )
 
 type NodeOperation uint8

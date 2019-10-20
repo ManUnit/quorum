@@ -21,11 +21,11 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/private"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/core/vm"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/params"
+	"github.com/ethereum/quorum/private"
 )
 
 var (

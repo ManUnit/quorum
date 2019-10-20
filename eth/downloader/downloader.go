@@ -25,15 +25,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	ethereum "github.com/ethereum/quorum"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/core/rawdb"
+	"github.com/ethereum/quorum/core/types"
+	"github.com/ethereum/quorum/ethdb"
+	"github.com/ethereum/quorum/event"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/metrics"
+	"github.com/ethereum/quorum/params"
 )
 
 var (

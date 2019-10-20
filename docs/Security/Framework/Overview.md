@@ -10,7 +10,7 @@ The following outlines the *scope* of the framework:
 
 
 ## References
-+ https://github.com/ethereum/go-ethereum/wiki
++ https://github.com/ethereum/quorum/wiki
 + https://github.com/jpmorganchase/quorum/wiki
 + https://www.dasp.co/
 + https://entethalliance.org/technical-documents/

@@ -20,12 +20,12 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/core/state"
+	"github.com/ethereum/quorum/core/types"
+	"github.com/ethereum/quorum/p2p"
+	"github.com/ethereum/quorum/params"
+	"github.com/ethereum/quorum/rpc"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

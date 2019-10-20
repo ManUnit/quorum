@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/common/hexutil"
 )
 
 func TestHeaderHash(t *testing.T) {

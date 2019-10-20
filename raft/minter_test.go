@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/common/hexutil"
+	"github.com/ethereum/quorum/core/types"
+	"github.com/ethereum/quorum/crypto"
+	"github.com/ethereum/quorum/node"
+	"github.com/ethereum/quorum/rlp"
 )
 
 func TestSignHeader(t *testing.T) {

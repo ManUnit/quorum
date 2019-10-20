@@ -22,10 +22,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	"github.com/ethereum/go-ethereum/consensus/istanbul/validator"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/consensus/istanbul"
+	"github.com/ethereum/quorum/consensus/istanbul/validator"
+	"github.com/ethereum/quorum/crypto"
 )
 
 func TestHandlePrepare(t *testing.T) {

@@ -31,7 +31,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/quorum/log"
 	"github.com/pborman/uuid"
 
 	cli "gopkg.in/urfave/cli.v1"

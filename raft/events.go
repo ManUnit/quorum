@@ -1,7 +1,7 @@
 package raft
 
 import (
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/quorum/core/types"
 )
 
 type InvalidRaftOrdering struct {

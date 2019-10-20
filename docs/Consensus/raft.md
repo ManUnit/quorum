@@ -151,7 +151,7 @@ Default number of peers is set to be 25. Max number of peers is configurable wit
 
 ## Initial configuration, and enacting membership changes
 
-Currently Raft-based consensus requires that all _initial_ nodes in the cluster are configured to list the others up-front as [static peers](https://github.com/ethereum/go-ethereum/wiki/Connecting-to-the-network#static-nodes). These enode ID URIs _must_ include a `raftport` querystring parameter specifying the raft port for each peer: e.g. `enode://abcd@127.0.0.1:30400?raftport=50400`. Note that the order of the enodes in the `static-nodes.json` file needs to be the same across all peers.
+Currently Raft-based consensus requires that all _initial_ nodes in the cluster are configured to list the others up-front as [static peers](https://github.com/ethereum/quorum/wiki/Connecting-to-the-network#static-nodes). These enode ID URIs _must_ include a `raftport` querystring parameter specifying the raft port for each peer: e.g. `enode://abcd@127.0.0.1:30400?raftport=50400`. Note that the order of the enodes in the `static-nodes.json` file needs to be the same across all peers.
 
 To remove a node from the cluster, attach to a JS console and issue `raft.removePeer(raftId)`, where `raftId` is the number of the node you wish to remove. For initial nodes in the cluster, this number is the 1-indexed position of the node's enode ID in the static peers list. Once a node has been removed from the cluster, it is permanent; this raft ID can not ever re-connect to the cluster in the future, and the party must re-join the cluster with a new raft ID.
 

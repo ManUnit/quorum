@@ -24,8 +24,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/quorum"
+	"github.com/ethereum/quorum/common"
 )
 
 // Verify that Client implements the ethereum interfaces.

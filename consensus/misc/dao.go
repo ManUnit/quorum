@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/quorum/core/state"
+	"github.com/ethereum/quorum/core/types"
+	"github.com/ethereum/quorum/params"
 )
 
 var (

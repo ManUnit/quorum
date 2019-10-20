@@ -5,20 +5,20 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/quorum/core/types"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ethereum/quorum/accounts"
+	"github.com/ethereum/quorum/core"
+	"github.com/ethereum/quorum/eth"
+	"github.com/ethereum/quorum/eth/downloader"
+	"github.com/ethereum/quorum/ethdb"
+	"github.com/ethereum/quorum/event"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/node"
+	"github.com/ethereum/quorum/p2p"
+	"github.com/ethereum/quorum/p2p/enode"
+	"github.com/ethereum/quorum/params"
+	"github.com/ethereum/quorum/rpc"
 )
 
 type RaftService struct {

@@ -20,12 +20,12 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/core"
+	"github.com/ethereum/quorum/core/rawdb"
+	"github.com/ethereum/quorum/core/types"
+	"github.com/ethereum/quorum/crypto"
+	"github.com/ethereum/quorum/rlp"
 )
 
 var sha3_nil = crypto.Keccak256Hash(nil)

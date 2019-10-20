@@ -25,10 +25,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/core"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

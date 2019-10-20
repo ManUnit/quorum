@@ -28,14 +28,14 @@ import (
 
 	"github.com/mattn/go-colorable"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/rpc"
 
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
+	"github.com/ethereum/quorum/node"
+	"github.com/ethereum/quorum/p2p"
+	"github.com/ethereum/quorum/p2p/enode"
+	"github.com/ethereum/quorum/p2p/simulations"
+	"github.com/ethereum/quorum/p2p/simulations/adapters"
 )
 
 const (

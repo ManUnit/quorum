@@ -22,7 +22,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/quorum/common"
 )
 
 // Genesis hashes to enforce below configs on.

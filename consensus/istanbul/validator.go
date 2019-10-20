@@ -19,7 +19,7 @@ package istanbul
 import (
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/quorum/common"
 )
 
 type Validator interface {

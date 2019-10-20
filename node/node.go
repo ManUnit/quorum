@@ -27,13 +27,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ethereum/quorum/accounts"
+	"github.com/ethereum/quorum/ethdb"
+	"github.com/ethereum/quorum/event"
+	"github.com/ethereum/quorum/internal/debug"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/p2p"
+	"github.com/ethereum/quorum/rpc"
 	"github.com/prometheus/prometheus/util/flock"
 )
 

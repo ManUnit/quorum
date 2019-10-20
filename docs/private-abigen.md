@@ -2,7 +2,7 @@
 
 ### Overview
 
-Abigen is a source code generator that converts smart contract ABI definitions into type-safe Go packages.  In addition to the original capabilities provided by Ethereum described [here](https://github.com/ethereum/go-ethereum/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts). Quorum Abigen also supports private transactions.
+Abigen is a source code generator that converts smart contract ABI definitions into type-safe Go packages.  In addition to the original capabilities provided by Ethereum described [here](https://github.com/ethereum/quorum/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts). Quorum Abigen also supports private transactions.
 
 ### Implementation
 

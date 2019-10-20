@@ -25,11 +25,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/ethereum/quorum/crypto"
+	"github.com/ethereum/quorum/crypto/sha3"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/p2p/enode"
+	"github.com/ethereum/quorum/p2p/enr"
 )
 
 // func init() {

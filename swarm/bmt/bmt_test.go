@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/swarm/testutil"
+	"github.com/ethereum/quorum/crypto/sha3"
+	"github.com/ethereum/quorum/swarm/testutil"
 )
 
 // the actual data length generated (could be longer than max datalength of the BMT)

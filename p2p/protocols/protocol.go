@@ -38,12 +38,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/swarm/spancontext"
-	"github.com/ethereum/go-ethereum/swarm/tracing"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/metrics"
+	"github.com/ethereum/quorum/p2p"
+	"github.com/ethereum/quorum/rlp"
+	"github.com/ethereum/quorum/swarm/spancontext"
+	"github.com/ethereum/quorum/swarm/tracing"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

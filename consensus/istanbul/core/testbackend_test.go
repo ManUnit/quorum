@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	"github.com/ethereum/go-ethereum/consensus/istanbul/validator"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	elog "github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/consensus/istanbul"
+	"github.com/ethereum/quorum/consensus/istanbul/validator"
+	"github.com/ethereum/quorum/crypto"
+	"github.com/ethereum/quorum/ethdb"
+	"github.com/ethereum/quorum/event"
+	elog "github.com/ethereum/quorum/log"
 )
 
 var testLogger = elog.New()

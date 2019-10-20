@@ -11,6 +11,11 @@
 GOBIN = $(shell pwd)/build/bin
 GO ?= latest
 
+quorum:
+	build/env.sh go run build/ci.go install ./cmd/quorumd
+	@echo "Done building."
+	@echo "Run \"$(GOBIN)/quorumd\" to launch quorumd."
+
 geth:
 	build/env.sh go run build/ci.go install ./cmd/geth
 	@echo "Done building."

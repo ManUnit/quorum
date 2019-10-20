@@ -17,7 +17,7 @@
 package core
 
 import (
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
+	"github.com/ethereum/quorum/consensus/istanbul"
 )
 
 type backlogEvent struct {

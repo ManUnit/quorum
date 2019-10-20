@@ -17,11 +17,11 @@
 package istanbul
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/crypto"
+	"github.com/ethereum/quorum/crypto/sha3"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/rlp"
 )
 
 func RLPHash(v interface{}) (h common.Hash) {

@@ -17,15 +17,15 @@
 package core
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/quorum/common"
 	"math/big"
 	"reflect"
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	"github.com/ethereum/go-ethereum/core/types"
-	elog "github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/quorum/consensus/istanbul"
+	"github.com/ethereum/quorum/core/types"
+	elog "github.com/ethereum/quorum/log"
 )
 
 func makeBlock(number int64) *types.Block {

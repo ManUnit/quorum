@@ -11,28 +11,28 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
+	"github.com/ethereum/quorum/accounts"
+	"github.com/ethereum/quorum/accounts/keystore"
+	"github.com/ethereum/quorum/internal/ethapi"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/quorum/core/types"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/quorum/params"
 
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/quorum/p2p"
 
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/eth"
+	"github.com/ethereum/quorum/consensus/ethash"
+	"github.com/ethereum/quorum/eth"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/node"
-	pbind "github.com/ethereum/go-ethereum/permission/bind"
+	"github.com/ethereum/quorum/accounts/abi/bind"
+	"github.com/ethereum/quorum/accounts/abi/bind/backends"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/core"
+	"github.com/ethereum/quorum/crypto"
+	"github.com/ethereum/quorum/node"
+	pbind "github.com/ethereum/quorum/permission/bind"
 )
 
 const (

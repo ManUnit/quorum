@@ -31,6 +31,6 @@ and help.
 
 ## Configuration, dependencies, and tests
 
-Please see the [Developers' Guide](https://github.com/ethereum/go-ethereum/wiki/Developers'-Guide)
+Please see the [Developers' Guide](https://github.com/ethereum/quorum/wiki/Developers'-Guide)
 for more details on configuring your environment, managing project dependencies
 and testing procedures.

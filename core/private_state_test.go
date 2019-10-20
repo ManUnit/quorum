@@ -17,10 +17,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/private"
-	"github.com/ethereum/go-ethereum/private/constellation"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/crypto"
+	"github.com/ethereum/quorum/private"
+	"github.com/ethereum/quorum/private/constellation"
 )
 
 // callmsg is the message type used for call transactions in the private state test

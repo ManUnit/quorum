@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/rules/deps"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/ethereum/quorum/common"
+	"github.com/ethereum/quorum/internal/ethapi"
+	"github.com/ethereum/quorum/log"
+	"github.com/ethereum/quorum/signer/core"
+	"github.com/ethereum/quorum/signer/rules/deps"
+	"github.com/ethereum/quorum/signer/storage"
 	"github.com/robertkrimen/otto"
 )
 
